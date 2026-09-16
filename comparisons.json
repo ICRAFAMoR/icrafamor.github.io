@@ -330,6 +330,666 @@
     "source": "media/source_PALMS_TURN_PAGE-1"
   },
   {
+    "robot": "upper-body",
+    "motion": "NECK_SCRATCH-1",
+    "metrics": [
+      {
+        "semantic": 86.29658317995894,
+        "amplitude": 0.9413984601171063,
+        "collision": false,
+        "velocity": false,
+        "success": false
+      },
+      {
+        "semantic": 86.89894893850027,
+        "amplitude": 0.9349897787679248,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.76463192807962,
+        "amplitude": 0.9452114177765812,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.865682989579355,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_NECK_SCRATCH-1",
+    "media": "media/upper-body_NECK_SCRATCH-1",
+    "source": "media/source_NECK_SCRATCH-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HEART_CLASP-2",
+    "metrics": [
+      {
+        "semantic": 81.88693598877823,
+        "amplitude": 0.7422716405042139,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 81.90030336983872,
+        "amplitude": 0.7402894209621521,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.46128836412902,
+        "amplitude": 0.8247835515932347,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.560984994290294,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HEART_CLASP-2",
+    "media": "media/upper-body_HEART_CLASP-2",
+    "source": "media/source_HEART_CLASP-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HAND_WRITE-1",
+    "metrics": [
+      {
+        "semantic": 79.19970253663095,
+        "amplitude": 0.8712274026900396,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 79.40023312372097,
+        "amplitude": 0.8697522119667351,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 83.69914661342493,
+        "amplitude": 0.9136360975383627,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.298913489703963,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HAND_WRITE-1",
+    "media": "media/upper-body_HAND_WRITE-1",
+    "source": "media/source_HAND_WRITE-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "NOSE_FAN-1",
+    "metrics": [
+      {
+        "semantic": 93.09700421516568,
+        "amplitude": 1.0412801379623005,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.05311818709357,
+        "amplitude": 1.0381811610494576,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 97.39423684197462,
+        "amplitude": 1.0208504642353666,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.297232626808935,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_NOSE_FAN-1",
+    "media": "media/upper-body_NOSE_FAN-1",
+    "source": "media/source_NOSE_FAN-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "PALMS_FRONT-2",
+    "metrics": [
+      {
+        "semantic": 79.66983989721467,
+        "amplitude": 0.8142876885764945,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 79.68234042504083,
+        "amplitude": 0.8020825170912493,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 83.9118995056008,
+        "amplitude": 0.8475314522843868,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.229559080559966,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_PALMS_FRONT-2",
+    "media": "media/upper-body_PALMS_FRONT-2",
+    "source": "media/source_PALMS_FRONT-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "ARMS_RAISE_TOWORDS_SKY-1",
+    "metrics": [
+      {
+        "semantic": 83.77007698251145,
+        "amplitude": 0.9561304317842045,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 83.82444046098053,
+        "amplitude": 0.9593253541316267,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 87.96727708660124,
+        "amplitude": 0.9802636717395754,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.142836625620717,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_ARMS_RAISE_TOWORDS_SKY-1",
+    "media": "media/upper-body_ARMS_RAISE_TOWORDS_SKY-1",
+    "source": "media/source_ARMS_RAISE_TOWORDS_SKY-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "CHEST_HOLD-1",
+    "metrics": [
+      {
+        "semantic": 82.64949644498707,
+        "amplitude": 0.7748587157586357,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 82.6353425704286,
+        "amplitude": 0.7717788110302394,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.55811137411683,
+        "amplitude": 0.8392613558079908,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.9086149291297687,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_CHEST_HOLD-1",
+    "media": "media/upper-body_CHEST_HOLD-1",
+    "source": "media/source_CHEST_HOLD-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HEART_CROSS-1",
+    "metrics": [
+      {
+        "semantic": 86.73432900425408,
+        "amplitude": 0.8238994986327858,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.71656534446807,
+        "amplitude": 0.8242083480959405,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.55971220214232,
+        "amplitude": 0.8862918503700257,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.825383197888243,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HEART_CROSS-1",
+    "media": "media/upper-body_HEART_CROSS-1",
+    "source": "media/source_HEART_CROSS-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "PALMS_OVERTURN-4",
+    "metrics": [
+      {
+        "semantic": 82.79695069257059,
+        "amplitude": 0.9639062592406451,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 82.88614809034351,
+        "amplitude": 0.9537511366441322,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.66500577145258,
+        "amplitude": 0.9497716906868107,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.7788576811090735,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_PALMS_OVERTURN-4",
+    "media": "media/upper-body_PALMS_OVERTURN-4",
+    "source": "media/source_PALMS_OVERTURN-4"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HAND_SAFEGUARD-2",
+    "metrics": [
+      {
+        "semantic": 82.32813830569536,
+        "amplitude": 0.8619116618111646,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 82.33289914960783,
+        "amplitude": 0.8752108118217035,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.0797873690966,
+        "amplitude": 0.8892915203173367,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.746888219488767,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HAND_SAFEGUARD-2",
+    "media": "media/upper-body_HAND_SAFEGUARD-2",
+    "source": "media/source_HAND_SAFEGUARD-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HAND_DOORWAY_TURN-3",
+    "metrics": [
+      {
+        "semantic": 80.86460776879643,
+        "amplitude": 1.0253792090869907,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 80.88314156537521,
+        "amplitude": 1.027053099715871,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 84.5299593148411,
+        "amplitude": 0.9985419453033508,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.6468177494658818,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HAND_DOORWAY_TURN-3",
+    "media": "media/upper-body_HAND_DOORWAY_TURN-3",
+    "source": "media/source_HAND_DOORWAY_TURN-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "MOUTH_FAN-1",
+    "metrics": [
+      {
+        "semantic": 91.77733827240057,
+        "amplitude": 1.1426380896033292,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.71448094267976,
+        "amplitude": 1.1217778212842806,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 95.35561056321245,
+        "amplitude": 1.0852419001524747,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.5782722908118814,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_MOUTH_FAN-1",
+    "media": "media/upper-body_MOUTH_FAN-1",
+    "source": "media/source_MOUTH_FAN-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "FOREHEAD_PRESS-1",
+    "metrics": [
+      {
+        "semantic": 90.6586024398853,
+        "amplitude": 0.9102960971591397,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.61313873365914,
+        "amplitude": 0.9147055991143,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.20197951842181,
+        "amplitude": 0.9508584448066425,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.5433770785365084,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_FOREHEAD_PRESS-1",
+    "media": "media/upper-body_FOREHEAD_PRESS-1",
+    "source": "media/source_FOREHEAD_PRESS-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "ARMS_REACH-1",
+    "metrics": [
+      {
+        "semantic": 82.13306612504499,
+        "amplitude": 0.8637438208478447,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 82.2071135241843,
+        "amplitude": 0.8693754868460899,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 85.53212675545471,
+        "amplitude": 0.8852464505336505,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.325013231270418,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_ARMS_REACH-1",
+    "media": "media/upper-body_ARMS_REACH-1",
+    "source": "media/source_ARMS_REACH-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HAND_ROTATE-3",
+    "metrics": [
+      {
+        "semantic": 83.44750114717304,
+        "amplitude": 0.8558919908972226,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 83.54797025512003,
+        "amplitude": 0.8659277908030387,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.83872423405626,
+        "amplitude": 0.8829474450742782,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.2907539789362232,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HAND_ROTATE-3",
+    "media": "media/upper-body_HAND_ROTATE-3",
+    "source": "media/source_HAND_ROTATE-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "ARMS_RAISE_V_SHAPE-4",
+    "metrics": [
+      {
+        "semantic": 81.22425343476534,
+        "amplitude": 0.9172677299227423,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 81.4748908747385,
+        "amplitude": 0.9141115859280851,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 84.70227273775063,
+        "amplitude": 0.9242629923419587,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.227381863012127,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_ARMS_RAISE_V_SHAPE-4",
+    "media": "media/upper-body_ARMS_RAISE_V_SHAPE-4",
+    "source": "media/source_ARMS_RAISE_V_SHAPE-4"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "ARM_FLEX-3",
+    "metrics": [
+      {
+        "semantic": 84.90520765217947,
+        "amplitude": 0.9882140954780558,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 85.00889736009209,
+        "amplitude": 0.9876582479203715,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.19283836223565,
+        "amplitude": 0.9982052218505172,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.1839410021435555,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_ARM_FLEX-3",
+    "media": "media/upper-body_ARM_FLEX-3",
+    "source": "media/source_ARM_FLEX-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "ARM_ENDEAVOR-3",
+    "metrics": [
+      {
+        "semantic": 85.60135670618047,
+        "amplitude": 0.9873847882931169,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 85.61621584469256,
+        "amplitude": 0.9856111838192894,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.78758234268115,
+        "amplitude": 0.996102068685385,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.1713664979885863,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_ARM_ENDEAVOR-3",
+    "media": "media/upper-body_ARM_ENDEAVOR-3",
+    "source": "media/source_ARM_ENDEAVOR-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "THUMB_UP-3",
+    "metrics": [
+      {
+        "semantic": 87.06373294111344,
+        "amplitude": 0.719977989184406,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 87.06200902796802,
+        "amplitude": 0.6600647785296393,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.02818824253134,
+        "amplitude": 0.7630938021801966,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.9644553014178996,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_THUMB_UP-3",
+    "media": "media/upper-body_THUMB_UP-3",
+    "source": "media/source_THUMB_UP-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HAND_DRINK-1",
+    "metrics": [
+      {
+        "semantic": 93.44629321992468,
+        "amplitude": 1.034335017470154,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.46303926926072,
+        "amplitude": 1.0260689264286014,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 96.32250975048434,
+        "amplitude": 1.0335271103688886,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.8594704812236245,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HAND_DRINK-1",
+    "media": "media/upper-body_HAND_DRINK-1",
+    "source": "media/source_HAND_DRINK-1"
+  },
+  {
     "robot": "full-body",
     "motion": "HANDS_RISE-1",
     "metrics": [
@@ -658,5 +1318,665 @@
     "id": "full-body_PALMS_TURN_PAGE-1",
     "media": "media/full-body_PALMS_TURN_PAGE-1",
     "source": "media/source_PALMS_TURN_PAGE-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HANDS_RISE-2",
+    "metrics": [
+      {
+        "semantic": 81.10450674310464,
+        "amplitude": 0.8518085443413337,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 81.91261571295783,
+        "amplitude": 0.8438165574057029,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 87.35973051477299,
+        "amplitude": 0.8973439749331231,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 5.447114801815161,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_HANDS_RISE-2",
+    "media": "media/full-body_HANDS_RISE-2",
+    "source": "media/source_HANDS_RISE-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "CHEST_HOLD-3",
+    "metrics": [
+      {
+        "semantic": 86.1471779442905,
+        "amplitude": 0.8388473923405885,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.5625187354622,
+        "amplitude": 0.8879316058128387,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.1515347682804,
+        "amplitude": 0.9185689315024091,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.5890160328181935,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_CHEST_HOLD-3",
+    "media": "media/full-body_CHEST_HOLD-3",
+    "source": "media/source_CHEST_HOLD-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "THUMB_POINT-2",
+    "metrics": [
+      {
+        "semantic": 90.00196268948342,
+        "amplitude": 0.9713457728264163,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 89.98269839779279,
+        "amplitude": 0.9498953787608555,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.13703707940604,
+        "amplitude": 0.9445354319576773,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.135074389922622,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_THUMB_POINT-2",
+    "media": "media/full-body_THUMB_POINT-2",
+    "source": "media/source_THUMB_POINT-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HAIR_FROOM-1",
+    "metrics": [
+      {
+        "semantic": 92.0104772827234,
+        "amplitude": 0.9055734966536244,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.93153951451879,
+        "amplitude": 0.9032214133626192,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 95.6001122658011,
+        "amplitude": 0.8835524463866151,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.5896349830777012,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HAIR_FROOM-1",
+    "media": "media/full-body_HAIR_FROOM-1",
+    "source": "media/source_HAIR_FROOM-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "FOREARM_CUT-3",
+    "metrics": [
+      {
+        "semantic": 88.27719269911812,
+        "amplitude": 0.8357219265908576,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.3914835691232,
+        "amplitude": 0.9594629393351064,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.76124438832552,
+        "amplitude": 0.859082657147487,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.484051689207405,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_FOREARM_CUT-3",
+    "media": "media/full-body_FOREARM_CUT-3",
+    "source": "media/source_FOREARM_CUT-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "PALMS_CROSSCUT-3",
+    "metrics": [
+      {
+        "semantic": 89.14886716336919,
+        "amplitude": 0.9059403175511742,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 89.126181801486,
+        "amplitude": 0.9072835823376741,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.6121428773182,
+        "amplitude": 0.9248629878652446,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.4632757139490167,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_PALMS_CROSSCUT-3",
+    "media": "media/full-body_PALMS_CROSSCUT-3",
+    "source": "media/source_PALMS_CROSSCUT-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HAND_MEASURE_UP-2",
+    "metrics": [
+      {
+        "semantic": 85.80640623902771,
+        "amplitude": 0.8581614546694659,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 82.32986165614989,
+        "amplitude": 0.8378108135060266,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.97637512351362,
+        "amplitude": 0.8992331907875806,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.169968884485911,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HAND_MEASURE_UP-2",
+    "media": "media/full-body_HAND_MEASURE_UP-2",
+    "source": "media/source_HAND_MEASURE_UP-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "MOUTH_FAN-1",
+    "metrics": [
+      {
+        "semantic": 92.55670757728703,
+        "amplitude": 1.0358808061270819,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.30422905466035,
+        "amplitude": 0.9990985122133187,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 96.30870708432434,
+        "amplitude": 0.9863009103280702,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.0044780296639857,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_MOUTH_FAN-1",
+    "media": "media/full-body_MOUTH_FAN-1",
+    "source": "media/source_MOUTH_FAN-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "THUMB_DOWN-1",
+    "metrics": [
+      {
+        "semantic": 91.44833944930731,
+        "amplitude": 1.1216687488274164,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 91.5261458337522,
+        "amplitude": 0.9733170753879015,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.1399923996912,
+        "amplitude": 0.9338284288998143,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.6138465659389993,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_THUMB_DOWN-1",
+    "media": "media/full-body_THUMB_DOWN-1",
+    "source": "media/source_THUMB_DOWN-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "TEMPLE_SHOOT-1",
+    "metrics": [
+      {
+        "semantic": 92.27063812957937,
+        "amplitude": 0.7652453764786298,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.82676533296612,
+        "amplitude": 0.7187149541467469,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.52981099024674,
+        "amplitude": 0.8230813800638727,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.259172860667377,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_TEMPLE_SHOOT-1",
+    "media": "media/full-body_TEMPLE_SHOOT-1",
+    "source": "media/source_TEMPLE_SHOOT-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "ARMS_RAISE_V_SHAPE-5",
+    "metrics": [
+      {
+        "semantic": 89.48065271319965,
+        "amplitude": 0.8869739417365992,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 87.95210389676976,
+        "amplitude": 0.9386420962565044,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 91.73489350112393,
+        "amplitude": 0.9449880569071416,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.2542407879242887,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_ARMS_RAISE_V_SHAPE-5",
+    "media": "media/full-body_ARMS_RAISE_V_SHAPE-5",
+    "source": "media/source_ARMS_RAISE_V_SHAPE-5"
+  },
+  {
+    "robot": "full-body",
+    "motion": "BELLY_PREGNANT-1",
+    "metrics": [
+      {
+        "semantic": 84.79914118463456,
+        "amplitude": 0.8329694943766099,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.55562135570638,
+        "amplitude": 0.9427691703645729,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.73212294177058,
+        "amplitude": 0.9767578049096501,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.176501586064205,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_BELLY_PREGNANT-1",
+    "media": "media/full-body_BELLY_PREGNANT-1",
+    "source": "media/source_BELLY_PREGNANT-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "MOUTH_SHIELD-1",
+    "metrics": [
+      {
+        "semantic": 89.06893461884265,
+        "amplitude": 1.15627820973954,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 89.04520586847755,
+        "amplitude": 1.1531408013845037,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.20354635788524,
+        "amplitude": 1.1115864596147178,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 2.1346117390425974,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_MOUTH_SHIELD-1",
+    "media": "media/full-body_MOUTH_SHIELD-1",
+    "source": "media/source_MOUTH_SHIELD-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HAND_DRINK-1",
+    "metrics": [
+      {
+        "semantic": 93.63789716907615,
+        "amplitude": 0.9781407853675959,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.64213279001555,
+        "amplitude": 0.9744664142000206,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 95.57104515643282,
+        "amplitude": 0.9714465071892919,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.928912366417265,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HAND_DRINK-1",
+    "media": "media/full-body_HAND_DRINK-1",
+    "source": "media/source_HAND_DRINK-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HAND_DOORWAY_TURN-3",
+    "metrics": [
+      {
+        "semantic": 90.79045567124714,
+        "amplitude": 0.9262466790017421,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.27294850624014,
+        "amplitude": 0.848374820575578,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.53636846163444,
+        "amplitude": 0.8942375216492015,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.745912790387294,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HAND_DOORWAY_TURN-3",
+    "media": "media/full-body_HAND_DOORWAY_TURN-3",
+    "source": "media/source_HAND_DOORWAY_TURN-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HEAD_SCRATCH-1",
+    "metrics": [
+      {
+        "semantic": 89.08442033739814,
+        "amplitude": 0.7975524934720468,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.33544189205895,
+        "amplitude": 0.774771897716714,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 91.96542328472344,
+        "amplitude": 0.8550237941751788,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.6299813926644902,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HEAD_SCRATCH-1",
+    "media": "media/full-body_HEAD_SCRATCH-1",
+    "source": "media/source_HEAD_SCRATCH-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HAND_FAN-4",
+    "metrics": [
+      {
+        "semantic": 91.34926480327032,
+        "amplitude": 0.7213916470245082,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.94337802689202,
+        "amplitude": 0.67444647978564,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.85292859271043,
+        "amplitude": 0.7715886913289086,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.503663789440111,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HAND_FAN-4",
+    "media": "media/full-body_HAND_FAN-4",
+    "source": "media/source_HAND_FAN-4"
+  },
+  {
+    "robot": "full-body",
+    "motion": "FACE_BARRIER-2",
+    "metrics": [
+      {
+        "semantic": 95.60843150021363,
+        "amplitude": 0.9226868733212022,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.52948277920127,
+        "amplitude": 0.7589737299400846,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 97.04088990148104,
+        "amplitude": 0.8950756337722143,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.4324584012674109,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_FACE_BARRIER-2",
+    "media": "media/full-body_FACE_BARRIER-2",
+    "source": "media/source_FACE_BARRIER-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "ARMS_SURROUND-1",
+    "metrics": [
+      {
+        "semantic": 92.330807548825,
+        "amplitude": 0.8842013976725595,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 87.39325359670467,
+        "amplitude": 0.9148115592953162,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.7493314372509,
+        "amplitude": 0.9422383802850899,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.418523888425895,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_ARMS_SURROUND-1",
+    "media": "media/full-body_ARMS_SURROUND-1",
+    "source": "media/source_ARMS_SURROUND-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HAND_MEASURE_DOWN-2",
+    "metrics": [
+      {
+        "semantic": 85.34818526546934,
+        "amplitude": 1.2295881960876445,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 72.40296915594786,
+        "amplitude": 1.2158449216149956,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.68537644887144,
+        "amplitude": 1.0072667562333393,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.3371911834020977,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_HAND_MEASURE_DOWN-2",
+    "media": "media/full-body_HAND_MEASURE_DOWN-2",
+    "source": "media/source_HAND_MEASURE_DOWN-2"
   }
 ]
