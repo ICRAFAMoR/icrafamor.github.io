@@ -128,7 +128,7 @@ videos.forEach(video => {
   });
   video.addEventListener('waiting', () => { if (playing) { pause(); message('Buffering. Select Play all when ready.'); } });
 });
-fetch('comparisons.json').then(response => {
+fetch('comparisons.json?v=selection-20260916').then(response => {
   if (!response.ok) throw new Error('Data unavailable');
   return response.json();
 }).then(data => { cases = data; select(cases[0].id); requestAnimationFrame(tick); })

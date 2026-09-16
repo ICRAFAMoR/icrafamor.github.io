@@ -100,39 +100,6 @@
   },
   {
     "robot": "upper-body",
-    "motion": "NECK_CLAMP-1",
-    "metrics": [
-      {
-        "semantic": 91.87457731202572,
-        "amplitude": 0.9569739184907738,
-        "collision": false,
-        "velocity": true,
-        "success": false
-      },
-      {
-        "semantic": 89.83702288771438,
-        "amplitude": 0.9837697488568767,
-        "collision": false,
-        "velocity": true,
-        "success": false
-      },
-      {
-        "semantic": 95.9648392337336,
-        "amplitude": 1.0155201299864123,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 4.090261921707878,
-    "both_baselines_fail": true,
-    "category": "Constraint recovery",
-    "id": "upper-body_NECK_CLAMP-1",
-    "media": "media/upper-body_NECK_CLAMP-1",
-    "source": "media/source_NECK_CLAMP-1"
-  },
-  {
-    "robot": "upper-body",
     "motion": "ARMS_AKIMBO-2",
     "metrics": [
       {
@@ -196,39 +163,6 @@
     "id": "upper-body_HEART_CLASP-1",
     "media": "media/upper-body_HEART_CLASP-1",
     "source": "media/source_HEART_CLASP-1"
-  },
-  {
-    "robot": "upper-body",
-    "motion": "BELLY_PAT-2",
-    "metrics": [
-      {
-        "semantic": 77.51087001418188,
-        "amplitude": 0.8120570948804313,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 77.55148533987528,
-        "amplitude": 0.8090915635475726,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 83.79222319435897,
-        "amplitude": 0.8841966931691292,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 6.240737854483683,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "upper-body_BELLY_PAT-2",
-    "media": "media/upper-body_BELLY_PAT-2",
-    "source": "media/source_BELLY_PAT-2"
   },
   {
     "robot": "upper-body",
@@ -328,72 +262,6 @@
     "id": "upper-body_PALMS_TURN_PAGE-1",
     "media": "media/upper-body_PALMS_TURN_PAGE-1",
     "source": "media/source_PALMS_TURN_PAGE-1"
-  },
-  {
-    "robot": "upper-body",
-    "motion": "NECK_SCRATCH-1",
-    "metrics": [
-      {
-        "semantic": 86.29658317995894,
-        "amplitude": 0.9413984601171063,
-        "collision": false,
-        "velocity": false,
-        "success": false
-      },
-      {
-        "semantic": 86.89894893850027,
-        "amplitude": 0.9349897787679248,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 91.76463192807962,
-        "amplitude": 0.9452114177765812,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 4.865682989579355,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "upper-body_NECK_SCRATCH-1",
-    "media": "media/upper-body_NECK_SCRATCH-1",
-    "source": "media/source_NECK_SCRATCH-1"
-  },
-  {
-    "robot": "upper-body",
-    "motion": "HEART_CLASP-2",
-    "metrics": [
-      {
-        "semantic": 81.88693598877823,
-        "amplitude": 0.7422716405042139,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 81.90030336983872,
-        "amplitude": 0.7402894209621521,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 86.46128836412902,
-        "amplitude": 0.8247835515932347,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 4.560984994290294,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "upper-body_HEART_CLASP-2",
-    "media": "media/upper-body_HEART_CLASP-2",
-    "source": "media/source_HEART_CLASP-2"
   },
   {
     "robot": "upper-body",
@@ -691,39 +559,6 @@
     "id": "upper-body_HAND_DOORWAY_TURN-3",
     "media": "media/upper-body_HAND_DOORWAY_TURN-3",
     "source": "media/source_HAND_DOORWAY_TURN-3"
-  },
-  {
-    "robot": "upper-body",
-    "motion": "MOUTH_FAN-1",
-    "metrics": [
-      {
-        "semantic": 91.77733827240057,
-        "amplitude": 1.1426380896033292,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 91.71448094267976,
-        "amplitude": 1.1217778212842806,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 95.35561056321245,
-        "amplitude": 1.0852419001524747,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 3.5782722908118814,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "upper-body_MOUTH_FAN-1",
-    "media": "media/upper-body_MOUTH_FAN-1",
-    "source": "media/source_MOUTH_FAN-1"
   },
   {
     "robot": "upper-body",
@@ -1549,39 +1384,6 @@
     "id": "full-body_HAND_MEASURE_UP-2",
     "media": "media/full-body_HAND_MEASURE_UP-2",
     "source": "media/source_HAND_MEASURE_UP-2"
-  },
-  {
-    "robot": "full-body",
-    "motion": "MOUTH_FAN-1",
-    "metrics": [
-      {
-        "semantic": 92.55670757728703,
-        "amplitude": 1.0358808061270819,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 93.30422905466035,
-        "amplitude": 0.9990985122133187,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 96.30870708432434,
-        "amplitude": 0.9863009103280702,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 3.0044780296639857,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "full-body_MOUTH_FAN-1",
-    "media": "media/full-body_MOUTH_FAN-1",
-    "source": "media/source_MOUTH_FAN-1"
   },
   {
     "robot": "full-body",
