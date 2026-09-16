@@ -1,6 +1,171 @@
 [
   {
     "robot": "upper-body",
+    "motion": "FINGERS_FIVE-3",
+    "metrics": [
+      {
+        "semantic": 92.34495238484247,
+        "amplitude": 0.771515588372392,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.27821097716374,
+        "amplitude": 0.7625469376889328,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.27298999193403,
+        "amplitude": 1.0366141408643619,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": -0.0719623929084463,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_FINGERS_FIVE-3",
+    "media": "media/upper-body_FINGERS_FIVE-3",
+    "source": "media/source_FINGERS_FIVE-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "FINGERTIPS_KISS-3",
+    "metrics": [
+      {
+        "semantic": 93.6388090699707,
+        "amplitude": 0.8738302396224615,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.6551893013646,
+        "amplitude": 0.8431402841467338,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.8964523416762,
+        "amplitude": 0.8573126679836173,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.241263040311594,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_FINGERTIPS_KISS-3",
+    "media": "media/upper-body_FINGERTIPS_KISS-3",
+    "source": "media/source_FINGERTIPS_KISS-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "FOREFINGER_WAG-2",
+    "metrics": [
+      {
+        "semantic": 94.84657860107045,
+        "amplitude": 0.890162671150716,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 94.52912461486758,
+        "amplitude": 0.6849893910503326,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 95.6304090977096,
+        "amplitude": 0.8393381686921284,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 0.7838304966391547,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_FOREFINGER_WAG-2",
+    "media": "media/upper-body_FOREFINGER_WAG-2",
+    "source": "media/source_FOREFINGER_WAG-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "FINGERS_SNAP-3",
+    "metrics": [
+      {
+        "semantic": 90.36188983174095,
+        "amplitude": 0.6034426435938702,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.10747132136704,
+        "amplitude": 0.5230432004763241,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 90.8085110851453,
+        "amplitude": 0.6417432936227336,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 0.446621253404345,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_FINGERS_SNAP-3",
+    "media": "media/upper-body_FINGERS_SNAP-3",
+    "source": "media/source_FINGERS_SNAP-3"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "THUMB_FOREFINGER_AND_LITTLE_FINGER_RAISE-5",
+    "metrics": [
+      {
+        "semantic": 89.17358131535794,
+        "amplitude": 0.7859155044943728,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.84430190264082,
+        "amplitude": 0.6989853701921844,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 89.95845382025925,
+        "amplitude": 0.6874717159858713,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 0.7848725049013154,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_THUMB_FOREFINGER_AND_LITTLE_FINGER_RAISE-5",
+    "media": "media/upper-body_THUMB_FOREFINGER_AND_LITTLE_FINGER_RAISE-5",
+    "source": "media/source_THUMB_FOREFINGER_AND_LITTLE_FINGER_RAISE-5"
+  },
+  {
+    "robot": "upper-body",
     "motion": "HANDS_RISE-4",
     "metrics": [
       {
@@ -823,6 +988,138 @@
     "id": "upper-body_HAND_DRINK-1",
     "media": "media/upper-body_HAND_DRINK-1",
     "source": "media/source_HAND_DRINK-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "FINGERS_FIVE-3",
+    "metrics": [
+      {
+        "semantic": 92.83662339167597,
+        "amplitude": 0.7564148004480523,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 91.89982089465688,
+        "amplitude": 0.7577984823816516,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.82568805815802,
+        "amplitude": 0.7996307703163584,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": -0.010935333517949175,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_FINGERS_FIVE-3",
+    "media": "media/full-body_FINGERS_FIVE-3",
+    "source": "media/source_FINGERS_FIVE-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "FINGERS_THREE-2",
+    "metrics": [
+      {
+        "semantic": 92.03801775683948,
+        "amplitude": 0.8452718525908555,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 91.99874760622299,
+        "amplitude": 0.8260988949387791,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 93.05585479689302,
+        "amplitude": 0.7760528138191821,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.0178370400535357,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_FINGERS_THREE-2",
+    "media": "media/full-body_FINGERS_THREE-2",
+    "source": "media/source_FINGERS_THREE-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "THUMB_UP-2",
+    "metrics": [
+      {
+        "semantic": 88.16971255531718,
+        "amplitude": 0.7573552292296359,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 80.80937771066075,
+        "amplitude": 0.6903668435638884,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 89.63512233353322,
+        "amplitude": 0.8870602695768954,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 1.465409778216042,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_THUMB_UP-2",
+    "media": "media/full-body_THUMB_UP-2",
+    "source": "media/source_THUMB_UP-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "FOREFINGER_AND_MIDDLE_FINGER_GAZE-1",
+    "metrics": [
+      {
+        "semantic": 93.10099463180376,
+        "amplitude": 0.8706035540983633,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 93.15081481478023,
+        "amplitude": 0.8466413363033892,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 93.49176580772584,
+        "amplitude": 0.8672195090419533,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 0.3409509929456078,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_FOREFINGER_AND_MIDDLE_FINGER_GAZE-1",
+    "media": "media/full-body_FOREFINGER_AND_MIDDLE_FINGER_GAZE-1",
+    "source": "media/source_FOREFINGER_AND_MIDDLE_FINGER_GAZE-1"
   },
   {
     "robot": "full-body",
