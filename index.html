@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Anonymous supplementary material for FAMoR. Synchronized SeG source and three-method motion retargeting comparisons.">
+  <title>FAMoR · Anonymous supplementary material</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23283ec7'/%3E%3Cpath d='M10 25V8h14M10 16h11' fill='none' stroke='white' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#comparison">Skip to comparison</a>
+<header class="masthead"><a class="wordmark" href="./">FAMoR<span class="mark">/</span></a><span>ANONYMOUS SUPPLEMENTARY MATERIAL</span><a href="#protocol">Comparison protocol ↗</a></header>
+<main>
+  <section class="intro">
+    <div><p class="eyebrow">Fine-grained Agentic Motion Retargeting</p><h1>With Safety Guarantees</h1><p class="lede">Source gestures and robot motions, side by side.</p></div>
+    <p class="intro-note">20 selected comparisons<br>2 humanoid embodiments<br>473-motion evaluation cohort</p>
+  </section>
+  <section id="comparison" aria-labelledby="comparison-title">
+    <div class="section-bar"><h2 id="comparison-title">Qualitative comparisons</h2><span class="count" id="count">01 / 20</span></div>
+    <div class="selectors"><label>Embodiment<select id="robot"><option value="upper-body">Upper-body humanoid</option><option value="full-body">Full-body humanoid</option></select></label><label class="motion-select">SeG motion<select id="motion"></select></label><fieldset><legend>Robot view</legend><label><input type="radio" name="view" value="front" checked> Front</label><label><input type="radio" name="view" value="side"> Side</label></fieldset></div>
+    <div class="case-heading"><div><p class="eyebrow" id="category">Constraint recovery</p><h3 id="motion-title">HANDS_RISE-4</h3></div><p id="case-note"></p></div>
+    <div class="videos">
+      <article class="video-panel source"><div class="panel-title"><span class="panel-index">S</span><div><h4>SeG source</h4><p>Human motion · front view</p></div></div><div class="screen"><video id="source" muted playsinline preload="metadata" aria-label="SeG source motion"></video><button class="expand" data-video="source" aria-label="Expand source video">⛶</button></div><p class="source-caption">Original source articulation</p></article>
+      <article class="video-panel"><div class="panel-title"><span class="panel-index">01</span><div><h4>Fixed Pipeline</h4><p>Adapted from GMR [1] · IK-only</p></div></div><div class="screen"><video id="method0" muted playsinline preload="metadata" aria-label="Fixed Pipeline motion"></video><button class="expand" data-video="method0" aria-label="Expand Fixed Pipeline video">⛶</button></div><p class="status" id="status0"></p></article>
+      <article class="video-panel"><div class="panel-title"><span class="panel-index">02</span><div><h4>VLM-Triggered</h4><p>Adapted from [2]</p></div></div><div class="screen"><video id="method1" muted playsinline preload="metadata" aria-label="VLM-Triggered motion"></video><button class="expand" data-video="method1" aria-label="Expand VLM-Triggered video">⛶</button></div><p class="status" id="status1"></p></article>
+      <article class="video-panel ours"><div class="panel-title"><span class="panel-index">03</span><div><h4>FAMoR</h4><p>Our method</p></div></div><div class="screen"><video id="method2" muted playsinline preload="metadata" aria-label="FAMoR motion"></video><button class="expand" data-video="method2" aria-label="Expand FAMoR video">⛶</button></div><p class="status" id="status2"></p></article>
+    </div>
+    <div class="transport"><button id="play" class="primary" disabled>Play all</button><button id="restart" aria-label="Restart all videos">↶ Restart</button><label class="timeline"><span class="sr-only">Playback position</span><input id="seek" type="range" min="0" max="1" value="0" step="0.001"><output id="time">0.00 / 0.00 s</output></label><label class="speed">Speed<select id="speed"><option value="1">1×</option><option value="0.5">0.5×</option><option value="0.25">0.25×</option></select></label><div class="frames"><button id="prev-frame" aria-label="Previous frame">−1 frame</button><button id="next-frame" aria-label="Next frame">+1 frame</button></div></div>
+    <p id="player-message" role="status" aria-live="polite">Loading comparison…</p>
+    <div class="metrics-wrap"><table id="metrics"><caption>Measurements for this complete motion</caption><thead><tr><th scope="col">Metric</th><th scope="col">Fixed Pipeline</th><th scope="col">VLM-Triggered</th><th scope="col">FAMoR</th></tr></thead><tbody></tbody></table></div>
+  </section>
+  <section class="library" aria-labelledby="library-title"><div class="section-bar"><h2 id="library-title">Selected motions</h2><span>Choose a motion to compare</span></div><div id="case-list" class="case-list"></div></section>
+  <section class="protocol" id="protocol"><div><p class="eyebrow">Reading the comparisons</p><h2>Selection & interpretation</h2></div><div class="protocol-copy"><p>These are selected qualitative examples from the same 473 filtered SeG motions used in the paper. The selection emphasizes large Semantic Score gains over the better baseline and cases where both baselines fail the numerical criteria while FAMoR passes. Distinct gesture families are included to show different motion patterns. Page-turning and flute-playing gestures connect the comparison to the paper’s examples.</p><p>The clips are illustrative and are not a random sample or a user study. Their selection does not estimate human preference or the frequency of an improvement across the dataset. Per-motion measurements are shown for all three methods, including values that do not favor FAMoR.</p><p>We compare FAMoR with baselines adapted from GMR [1] and vision-language-guided retargeting [2]. Both baselines are adapted with the shared modules. Fixed Pipeline uses the IK-only output, consistent with the paper’s method comparison.</p><p>All methods use the same source timestamps, sampled at 15 frames per second without pose interpolation. Each camera remains fixed within a clip and is fitted to that clip’s full motion. The front/side control switches all robot views together. The human source remains in front view. Wrist markers are orange on the right and cyan on the left.</p><dl><dt>Semantic Score ↑</dt><dd>Preservation of source anchor–effector spatial relations. Higher is better.</dd><dt>Amplitude ratio</dt><dd>Robot movement extent relative to the source. A value near 1 indicates similar extent. Larger is not always better.</dd><dt>Collision-free / velocity compliance</dt><dd>Saved self-collision and nonfinger joint-velocity checks. Success requires both to pass over the complete motion. A short video alone cannot establish these checks.</dd></dl></div></section>
+  <section class="references"><h2>References</h2><ol><li>Araújo et al. <cite>Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking.</cite> ICRA, 2026.</li><li>Khan et al. <cite>From Sign Language Generation to Humanoid Execution: Vision-Language Guided Retargeting with Collision Mitigation.</cite> 2026.</li><li>Zhang et al. <cite>Semantic Gesticulator: Semantics-Aware Co-Speech Gesture Synthesis.</cite> ACM Transactions on Graphics, 2024.</li></ol></section>
+</main>
+<footer><strong>FAMoR</strong><span>Anonymous review material</span></footer>
+</body>
+</html>

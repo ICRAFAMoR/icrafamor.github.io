@@ -1,0 +1,662 @@
+[
+  {
+    "robot": "upper-body",
+    "motion": "HANDS_RISE-4",
+    "metrics": [
+      {
+        "semantic": 78.07958468012839,
+        "amplitude": 0.7961001794172815,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 78.14877730128863,
+        "amplitude": 0.7917396945723313,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 82.17820029132274,
+        "amplitude": 0.8417375765866756,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.0294229900341065,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "upper-body_HANDS_RISE-4",
+    "media": "media/upper-body_HANDS_RISE-4",
+    "source": "media/source_HANDS_RISE-4"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "NECK_RUB-2",
+    "metrics": [
+      {
+        "semantic": 84.27694220491671,
+        "amplitude": 0.9176561677312676,
+        "collision": false,
+        "velocity": false,
+        "success": false
+      },
+      {
+        "semantic": 85.72103097037956,
+        "amplitude": 0.92738964167645,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 91.13189664094782,
+        "amplitude": 0.9556430595955601,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 5.410865670568256,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "upper-body_NECK_RUB-2",
+    "media": "media/upper-body_NECK_RUB-2",
+    "source": "media/source_NECK_RUB-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "PALMS_REPEL-2",
+    "metrics": [
+      {
+        "semantic": 78.39604661422908,
+        "amplitude": 0.8841327379782657,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 78.4749496608749,
+        "amplitude": 0.8765741763310214,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 83.37955539444043,
+        "amplitude": 0.9032912877944632,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.904605733565532,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "upper-body_PALMS_REPEL-2",
+    "media": "media/upper-body_PALMS_REPEL-2",
+    "source": "media/source_PALMS_REPEL-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "NECK_CLAMP-1",
+    "metrics": [
+      {
+        "semantic": 91.87457731202572,
+        "amplitude": 0.9569739184907738,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 89.83702288771438,
+        "amplitude": 0.9837697488568767,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 95.9648392337336,
+        "amplitude": 1.0155201299864123,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.090261921707878,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "upper-body_NECK_CLAMP-1",
+    "media": "media/upper-body_NECK_CLAMP-1",
+    "source": "media/source_NECK_CLAMP-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "ARMS_AKIMBO-2",
+    "metrics": [
+      {
+        "semantic": 79.2142483993627,
+        "amplitude": 1.0252422865511868,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 79.21361462775279,
+        "amplitude": 1.0841893851858506,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 86.46808972736348,
+        "amplitude": 0.9620068513834773,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 7.2538413280007745,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_ARMS_AKIMBO-2",
+    "media": "media/upper-body_ARMS_AKIMBO-2",
+    "source": "media/source_ARMS_AKIMBO-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HEART_CLASP-1",
+    "metrics": [
+      {
+        "semantic": 76.63875693707035,
+        "amplitude": 0.6960757451959081,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 76.6421210128995,
+        "amplitude": 0.6983417200380656,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 82.96497988199928,
+        "amplitude": 0.7789403456461926,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 6.32285886909979,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_HEART_CLASP-1",
+    "media": "media/upper-body_HEART_CLASP-1",
+    "source": "media/source_HEART_CLASP-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "BELLY_PAT-2",
+    "metrics": [
+      {
+        "semantic": 77.51087001418188,
+        "amplitude": 0.8120570948804313,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 77.55148533987528,
+        "amplitude": 0.8090915635475726,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 83.79222319435897,
+        "amplitude": 0.8841966931691292,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 6.240737854483683,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_BELLY_PAT-2",
+    "media": "media/upper-body_BELLY_PAT-2",
+    "source": "media/source_BELLY_PAT-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "FOREHEAD_WIPE-2",
+    "metrics": [
+      {
+        "semantic": 88.11638914073858,
+        "amplitude": 0.8610695897054234,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 88.22047681342232,
+        "amplitude": 0.8595874874081094,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.32195628896832,
+        "amplitude": 0.9096260497044238,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 5.101479475546,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "upper-body_FOREHEAD_WIPE-2",
+    "media": "media/upper-body_FOREHEAD_WIPE-2",
+    "source": "media/source_FOREHEAD_WIPE-2"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "HANDS_FLUTE-1",
+    "metrics": [
+      {
+        "semantic": 98.28642674158816,
+        "amplitude": 1.003015364824542,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 98.08977079083311,
+        "amplitude": 0.9365286856163153,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 99.06462031104091,
+        "amplitude": 1.0086327413554692,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 0.7781935694527533,
+    "both_baselines_fail": false,
+    "category": "Paper examples",
+    "id": "upper-body_HANDS_FLUTE-1",
+    "media": "media/upper-body_HANDS_FLUTE-1",
+    "source": "media/source_HANDS_FLUTE-1"
+  },
+  {
+    "robot": "upper-body",
+    "motion": "PALMS_TURN_PAGE-1",
+    "metrics": [
+      {
+        "semantic": 97.42993060790648,
+        "amplitude": 1.0788905159708675,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 97.15926349798113,
+        "amplitude": 1.0708503536361154,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 96.89694134302167,
+        "amplitude": 1.0655311176249926,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": -0.5329892648848187,
+    "both_baselines_fail": false,
+    "category": "Paper examples",
+    "id": "upper-body_PALMS_TURN_PAGE-1",
+    "media": "media/upper-body_PALMS_TURN_PAGE-1",
+    "source": "media/source_PALMS_TURN_PAGE-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HANDS_RISE-1",
+    "metrics": [
+      {
+        "semantic": 83.51345726929624,
+        "amplitude": 0.8370939209684738,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 83.54952150647999,
+        "amplitude": 0.8406460059875543,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 89.3975332036641,
+        "amplitude": 0.8816435169706294,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 5.848011697184106,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_HANDS_RISE-1",
+    "media": "media/full-body_HANDS_RISE-1",
+    "source": "media/source_HANDS_RISE-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HANDS_CROSS-3",
+    "metrics": [
+      {
+        "semantic": 88.31533139757836,
+        "amplitude": 0.9783823511216299,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 88.00716544385571,
+        "amplitude": 0.965259220180031,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 93.36824493411207,
+        "amplitude": 0.911282401423854,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 5.052913536533708,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_HANDS_CROSS-3",
+    "media": "media/full-body_HANDS_CROSS-3",
+    "source": "media/source_HANDS_CROSS-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "NECK_CLAMP-2",
+    "metrics": [
+      {
+        "semantic": 89.73486612001088,
+        "amplitude": 0.9423174228214882,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 89.61645358698487,
+        "amplitude": 0.9688806429270933,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 93.4649850848478,
+        "amplitude": 0.9996121868513942,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.730118964836919,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_NECK_CLAMP-2",
+    "media": "media/full-body_NECK_CLAMP-2",
+    "source": "media/source_NECK_CLAMP-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "ARMS_WELCOME-1",
+    "metrics": [
+      {
+        "semantic": 91.22375075898297,
+        "amplitude": 0.9503526937939457,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 89.99094254927181,
+        "amplitude": 1.0397765432866584,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 94.67743386590102,
+        "amplitude": 0.9807597462988444,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 3.4536831069180494,
+    "both_baselines_fail": true,
+    "category": "Constraint recovery",
+    "id": "full-body_ARMS_WELCOME-1",
+    "media": "media/full-body_ARMS_WELCOME-1",
+    "source": "media/source_ARMS_WELCOME-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "BELLY_RUB-1",
+    "metrics": [
+      {
+        "semantic": 84.81644955444986,
+        "amplitude": 0.9424157583328538,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 84.80089402205824,
+        "amplitude": 0.9423320340627201,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.47029547583932,
+        "amplitude": 1.0478155320824563,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 7.653845921389461,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_BELLY_RUB-1",
+    "media": "media/full-body_BELLY_RUB-1",
+    "source": "media/source_BELLY_RUB-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "ARMS_AKIMBO-2",
+    "metrics": [
+      {
+        "semantic": 86.99138520693344,
+        "amplitude": 1.3206648960472438,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 87.15006098958959,
+        "amplitude": 1.3101611748137976,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.66809129400572,
+        "amplitude": 1.1768384682850628,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 6.518030304416129,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_ARMS_AKIMBO-2",
+    "media": "media/full-body_ARMS_AKIMBO-2",
+    "source": "media/source_ARMS_AKIMBO-2"
+  },
+  {
+    "robot": "full-body",
+    "motion": "BELLY_PAT-1",
+    "metrics": [
+      {
+        "semantic": 86.0343457204543,
+        "amplitude": 0.8452438889020404,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 87.74309948309195,
+        "amplitude": 0.8940916335338656,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.9739065699214,
+        "amplitude": 0.9214958517214085,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 5.230807086829444,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_BELLY_PAT-1",
+    "media": "media/full-body_BELLY_PAT-1",
+    "source": "media/source_BELLY_PAT-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "ARMS_DESCEND-3",
+    "metrics": [
+      {
+        "semantic": 87.69792863627252,
+        "amplitude": 1.3694247444061296,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 88.85643277901137,
+        "amplitude": 1.3405843659391907,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 93.18003002230027,
+        "amplitude": 1.185268234967181,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": 4.323597243288901,
+    "both_baselines_fail": false,
+    "category": "Source similarity",
+    "id": "full-body_ARMS_DESCEND-3",
+    "media": "media/full-body_ARMS_DESCEND-3",
+    "source": "media/source_ARMS_DESCEND-3"
+  },
+  {
+    "robot": "full-body",
+    "motion": "HANDS_FLUTE-1",
+    "metrics": [
+      {
+        "semantic": 97.29690699702562,
+        "amplitude": 0.9519466189346921,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 98.07861162526733,
+        "amplitude": 0.8869562471443564,
+        "collision": false,
+        "velocity": true,
+        "success": false
+      },
+      {
+        "semantic": 95.88348715542561,
+        "amplitude": 1.0018138499717024,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": -2.1951244698417156,
+    "both_baselines_fail": true,
+    "category": "Paper examples",
+    "id": "full-body_HANDS_FLUTE-1",
+    "media": "media/full-body_HANDS_FLUTE-1",
+    "source": "media/source_HANDS_FLUTE-1"
+  },
+  {
+    "robot": "full-body",
+    "motion": "PALMS_TURN_PAGE-1",
+    "metrics": [
+      {
+        "semantic": 95.60087024102447,
+        "amplitude": 1.1402008547809732,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 95.68488105868212,
+        "amplitude": 1.0962833484332326,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      },
+      {
+        "semantic": 92.30330355878168,
+        "amplitude": 1.0499108887615183,
+        "collision": true,
+        "velocity": true,
+        "success": true
+      }
+    ],
+    "semantic_gain": -3.3815774999004446,
+    "both_baselines_fail": false,
+    "category": "Paper examples",
+    "id": "full-body_PALMS_TURN_PAGE-1",
+    "media": "media/full-body_PALMS_TURN_PAGE-1",
+    "source": "media/source_PALMS_TURN_PAGE-1"
+  }
+]
