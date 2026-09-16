@@ -892,39 +892,6 @@
   },
   {
     "robot": "full-body",
-    "motion": "NECK_CLAMP-2",
-    "metrics": [
-      {
-        "semantic": 89.73486612001088,
-        "amplitude": 0.9423174228214882,
-        "collision": false,
-        "velocity": true,
-        "success": false
-      },
-      {
-        "semantic": 89.61645358698487,
-        "amplitude": 0.9688806429270933,
-        "collision": false,
-        "velocity": true,
-        "success": false
-      },
-      {
-        "semantic": 93.4649850848478,
-        "amplitude": 0.9996121868513942,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 3.730118964836919,
-    "both_baselines_fail": true,
-    "category": "Constraint recovery",
-    "id": "full-body_NECK_CLAMP-2",
-    "media": "media/full-body_NECK_CLAMP-2",
-    "source": "media/source_NECK_CLAMP-2"
-  },
-  {
-    "robot": "full-body",
     "motion": "ARMS_WELCOME-1",
     "metrics": [
       {
@@ -1615,72 +1582,6 @@
     "id": "full-body_HAND_DOORWAY_TURN-3",
     "media": "media/full-body_HAND_DOORWAY_TURN-3",
     "source": "media/source_HAND_DOORWAY_TURN-3"
-  },
-  {
-    "robot": "full-body",
-    "motion": "HEAD_SCRATCH-1",
-    "metrics": [
-      {
-        "semantic": 89.08442033739814,
-        "amplitude": 0.7975524934720468,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 90.33544189205895,
-        "amplitude": 0.774771897716714,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 91.96542328472344,
-        "amplitude": 0.8550237941751788,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 1.6299813926644902,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "full-body_HEAD_SCRATCH-1",
-    "media": "media/full-body_HEAD_SCRATCH-1",
-    "source": "media/source_HEAD_SCRATCH-1"
-  },
-  {
-    "robot": "full-body",
-    "motion": "HAND_FAN-4",
-    "metrics": [
-      {
-        "semantic": 91.34926480327032,
-        "amplitude": 0.7213916470245082,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 88.94337802689202,
-        "amplitude": 0.67444647978564,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      },
-      {
-        "semantic": 92.85292859271043,
-        "amplitude": 0.7715886913289086,
-        "collision": true,
-        "velocity": true,
-        "success": true
-      }
-    ],
-    "semantic_gain": 1.503663789440111,
-    "both_baselines_fail": false,
-    "category": "Source similarity",
-    "id": "full-body_HAND_FAN-4",
-    "media": "media/full-body_HAND_FAN-4",
-    "source": "media/source_HAND_FAN-4"
   },
   {
     "robot": "full-body",
