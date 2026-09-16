@@ -65,9 +65,19 @@ function metrics(row) {
     const tr = document.createElement('tr');
     const th = document.createElement('th');
     th.scope = 'row'; th.textContent = label; tr.append(th);
+    // Compare original values symmetrically for all three methods.
+    const merit = key === 'semantic' ? value => value
+      : key === 'amplitude' ? value => -Math.abs(value - 1) : null;
+    const best = merit ? Math.max(...row.metrics.map(metric => merit(metric[key]))) : null;
     row.metrics.forEach(metric => {
       const td = document.createElement('td');
       td.textContent = format(metric[key]);
+      if (merit && Math.abs(merit(metric[key]) - best) < 1e-9) {
+        const strong = document.createElement('strong');
+        strong.className = 'metric-best'; strong.textContent = td.textContent;
+        strong.title = key === 'semantic' ? 'Highest Semantic Score' : 'Closest to 1';
+        td.replaceChildren(strong);
+      }
       if (typeof metric[key] === 'boolean') td.className = metric[key] ? 'pass' : 'fail';
       tr.append(td);
     });

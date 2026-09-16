@@ -65,6 +65,7 @@ th,td{text-align:right;padding:12px 16px;border-bottom:1px solid var(--line);fon
 th:first-child,td:first-child{text-align:left}
 thead th{font-size:.75rem;color:var(--muted);font-weight:600}
 td:last-child,th:last-child{background:var(--pale)}
+.metric-best{font-weight:700;color:var(--ink);background:#e2eddf;padding:3px 6px;border-radius:3px}
 td.pass{color:var(--green)}
 td.fail{color:var(--red)}
 .references{border-top:1px solid var(--line);margin-top:32px;padding:20px 0 28px;color:var(--muted)}
