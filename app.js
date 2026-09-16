@@ -27,7 +27,7 @@ async function play() {
     if (token !== generation) return pause();
     playing = true;
     $('play').textContent = 'Pause all';
-    message('Synchronized playback · 15 fps · source stays in front view');
+    message('Playing · 15 fps');
   } catch (_) {
     pause();
     message('Playback could not start. Select Play all to try again.');
@@ -50,15 +50,14 @@ function ready() {
   $('seek').max = String(duration);
   $('play').disabled = false;
   updateTime(videos[0].currentTime);
-  message('Ready · Play together, scrub, or step through individual frames');
+  message('Ready · 15 fps');
 }
 function metrics(row) {
   const specifications = [
     ['Semantic Score ↑', 'semantic', value => value.toFixed(2)],
     ['Amplitude ratio (near 1)', 'amplitude', value => value.toFixed(3)],
-    ['Collision-free', 'collision', value => value ? 'Pass' : 'Fail'],
-    ['Velocity compliance', 'velocity', value => value ? 'Pass' : 'Fail'],
-    ['Success', 'success', value => value ? 'Pass' : 'Fail']
+    ['Collision-free output', 'collision', value => value ? 'Pass' : 'Fail'],
+    ['Joint-velocity compliance', 'velocity', value => value ? 'Pass' : 'Fail']
   ];
   const body = $('metrics').querySelector('tbody');
   body.replaceChildren();
@@ -75,19 +74,6 @@ function metrics(row) {
     body.append(tr);
   }
 }
-function renderList() {
-  const list = $('case-list'); list.replaceChildren();
-  for (const row of cases.filter(item => item.robot === $('robot').value)) {
-    const button = document.createElement('button');
-    button.className = 'case-button';
-    button.setAttribute('aria-pressed', String(row.id === current.id));
-    const title = document.createElement('strong'); title.textContent = row.motion;
-    const detail = document.createElement('span');
-    detail.textContent = `${row.category} · Score gain ${row.semantic_gain >= 0 ? '+' : ''}${row.semantic_gain.toFixed(2)}`;
-    button.append(title, detail); button.onclick = () => select(row.id);
-    list.append(button);
-  }
-}
 function select(id) {
   pause(); generation++;
   current = cases.find(row => row.id === id) || cases[0];
@@ -96,21 +82,8 @@ function select(id) {
     const option = document.createElement('option'); option.value = row.id; option.textContent = row.motion; return option;
   }));
   $('motion').value = current.id;
-  $('motion-title').textContent = current.motion;
-  $('category').textContent = current.category;
   $('count').textContent = `${String(cases.indexOf(current) + 1).padStart(2, '0')} / ${cases.length}`;
-  const gain = `${current.semantic_gain >= 0 ? '+' : ''}${current.semantic_gain.toFixed(2)}`;
-  $('case-note').textContent = current.both_baselines_fail
-    ? `Both baselines fail the numerical criteria. FAMoR passes, with a ${gain}-point Semantic Score difference versus the better baseline.`
-    : `FAMoR’s Semantic Score difference versus the better baseline is ${gain} points. See the complete measurements below.`;
-  current.metrics.forEach((metric, index) => {
-    const status = $('status' + index);
-    status.className = 'status ' + (metric.success ? 'pass' : 'fail');
-    status.textContent = metric.success ? '✓ Numerical criteria satisfied'
-      : !metric.collision && !metric.velocity ? '× Collision & velocity violations'
-      : !metric.collision ? '× Self-collision detected' : '× Velocity violation';
-  });
-  metrics(current); renderList();
+  metrics(current);
   $('play').disabled = true; duration = 0; updateTime(0);
   message('Loading comparison…');
   const bases = [`${current.source}_front`, ...[0, 1, 2].map(i => `${current.media}_${i}_${view}`)];
